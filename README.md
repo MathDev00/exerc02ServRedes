@@ -13,7 +13,7 @@
 
 # III. Possibilita que usuários da rede interna possam acessar o serviço WWW, tanto na porta (TCP) 80 como na 443. Não esqueça de realizar NAT já que os usuários internos não possuem um endereço IP válido.
 
-# Uso das interfaces com base nos modelos acima!!!
+(Uso das interfaces com base nas redes da topologia)
 
 
 iptables -t filter -A FORWARD -i ethO -o eth2 -p tcp --dport 80 -j ACCEPT 
