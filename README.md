@@ -1,3 +1,7 @@
+# Regras para os casos solicitados
+
+Também foi criando o ambiente de testes com Docker para testar as regras
+
 
 
 ### I. Libere qualquer tráfego para interface de loopback no firewall.
