@@ -1,4 +1,6 @@
-# I. Libere qualquer tráfego para interface de loopback no firewall.
+
+
+### I. Libere qualquer tráfego para interface de loopback no firewall.
 
 
  iptables - t filter - A INPUT -i lo -j ACCEPT 
@@ -6,7 +8,7 @@
 
 
 
-# II. Estabeleça a política DROP (restritiva) para as chains INPUT e FORWARD da tabela filter. 
+### II. Estabeleça a política DROP (restritiva) para as chains INPUT e FORWARD da tabela filter. 
 
  iptables - t filter - P  INPUT DROP // usar - P ao invé de -A 
  iptables -t filter  - P  FORWARD ACCEPT
